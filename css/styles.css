@@ -1,0 +1,73 @@
+:root {
+    --primary-text-color:#757575;
+    --title-text-color:#212121;
+    --primary-white-color:#FFFFFF;
+    --footer-text-color:rgba(255, 255, 255, 0.6);
+    --accent-color:#2196F3;
+}
+
+body {
+    background: #F5F5F5;
+    color: var(--primary-text-color);
+}
+/* header */
+ul {
+    list-style: none;
+}
+
+.logo {
+    color: #000000;
+}
+
+.site-nav .link {
+    color: var(--title-text-color);
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+    color: var(--accent-color);
+}
+
+.link {
+    color: var(--primary-text-color);
+}
+
+.link:hover,
+.link:focus {
+    color: var(--accent-color);
+}
+
+/* СЕКЦІЯ */
+.hero-title {
+    color: var(--primary-white-color);
+}
+
+.section-title,
+.title { 
+    color: var(--title-text-color);
+}
+
+/* BUTTON */
+button {
+    background-color: var(--accent-color);
+    color: var(--primary-white-color);
+}
+
+/* FOOTER */
+.adress-link {
+    color: var(--primary-white-color);
+}
+
+.adress-link:hover,
+.adress-link:focus {
+    color: var(--accent-color);
+}
+
+.footer-adress .link {
+    color: var(--footer-text-color);
+}
+
+.footer-adress .link:hover,
+.footer-adress .link:focus {
+    color: var(--accent-color);
+}
