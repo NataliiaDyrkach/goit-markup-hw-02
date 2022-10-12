@@ -9,7 +9,7 @@
 body {
     background-color: #F5F5F5;
     color: var(--primary-text-color);
-    font-family: roboto, sans-serif;
+    font-family: "Roboto", sans-serif;
     letter-spacing: 0.03em;
 }
 
@@ -20,7 +20,7 @@ ul {
 
 .logo {
     color: #000000;
-    font-family: raleway, sans-serif;
+    font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 26px;
     line-height: 1.2;
@@ -55,6 +55,10 @@ ul {
 }
 
 /* СЕКЦІЇ */
+.hero {
+    background-color: #2F303A;
+}
+
 .hero-title {
     color: var(--primary-white-color);
     font-weight: 900;
@@ -127,6 +131,10 @@ button {
 }
 
 /* FOOTER */
+.footer {
+    background: #2F303A;
+}
+
 .fotter-adress {
     font-weight: 400;
     font-size: 14px;
